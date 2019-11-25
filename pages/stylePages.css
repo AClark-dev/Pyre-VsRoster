@@ -1,0 +1,137 @@
+body {
+    background-image: url('../images/backgroundTest.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Kells-SD';
+    src: url('../Kells-SD/Kells_SD.ttf');
+}
+
+.inline {
+    display: inline;
+}
+
+p {
+    margin: 0;
+    font-size: 1.6vmax;
+    -webkit-user-select: none;
+    font-family: 'Alegreya';
+}
+
+strong {
+    font-size: 2vmax;
+    -webkit-user-select: none;
+    font-family: Kells-SD;
+}
+
+.title {
+    text-decoration: underline;
+}
+
+#container {
+    height: 100%;
+}
+
+/***********************
+ * Section - Character *
+ ***********************/
+#character {
+    width: 100%;
+}
+
+#character strong {
+    font-size: 5vw;
+    vertical-align: middle;
+    margin-left: 2vw;
+}
+
+#character img {
+    vertical-align: middle;
+}
+
+
+/************************
+ * Section - Statistics *
+ ************************/
+#statistics {
+    float: left;
+    width: 25%;
+    overflow: auto;
+}
+
+#statistics em {
+    font-size: 1.2vmax;
+    font-family: 'Crimson Text', italics;
+    -webkit-user-select: none;
+    display: none;
+}
+
+/***********************
+ * Section - Powers *
+ ***********************/
+#powers {
+    float: left;
+    width: 25%;
+    overflow: auto;
+}
+
+#powers img{
+    max-height: 2.2vmax;
+    vertical-align: middle;
+}
+
+#powers strong {
+    vertical-align: middle;
+}
+
+/***********************
+ * Section - Masteries *
+ ***********************/
+#masteries {
+    float: right;
+    width: 50%;
+    overflow: auto;
+}
+
+#masteries img {
+    margin-bottom: 0.8vmax;
+}
+
+/*******************
+ * Stacking Blocks *
+ *******************/
+.stacker {
+//    margin: 2vh 1vw;
+    margin: 2vh 1vw 0 1vw;
+    overflow: auto;
+}
+
+.stacker img {
+    float: left;
+    margin-right: 1.5vmin;
+}
+
+
+/***************
+ * Back Button *
+ ***************/
+#buttonBack {
+    background-image: url('../images/buttonBackBaseUpscale.png');
+    background-size: cover;
+    min-height: 10vmax;
+    min-width: 10vmax;
+    position: fixed;
+    top: 1vmax;
+    right: 1vmax;
+}
+
+#buttonBack:hover {
+    background-image: url('../images/buttonBackHoverUpscale.png');
+}
+
+#buttonBack:active {
+    background-image: url('../images/buttonBackPressedUpscale.png');
+}

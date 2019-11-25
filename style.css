@@ -1,0 +1,35 @@
+
+body{
+    background-image: url("http://i.imgur.com/Mkf25Wo.jpg");
+    background-size: cover;
+    background-position: center top;
+}
+
+.wrapper {
+    width: 100%;
+//    margin: auto 0;
+}
+
+#logo {
+    max-width: 20vmax;
+    margin: 0 3em;
+}
+
+#container {
+    text-align: center;
+}
+
+#container a img {
+    margin: 0.2vmax;
+    max-width: 10vw;
+}
+
+#container a {
+    opacity: 0.8;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+#container a:hover {
+    opacity: 1;
+}
