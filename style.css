@@ -1,13 +1,12 @@
 
 body{
-    background-image: url("http://i.imgur.com/Mkf25Wo.jpg");
+    background-image: url('images/indexBG.png');
     background-size: cover;
     background-position: center top;
 }
 
 .wrapper {
     width: 100%;
-//    margin: auto 0;
 }
 
 #logo {
